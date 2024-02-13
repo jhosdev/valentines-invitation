@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'extra.css';
+
+.container * {
+  animation-play-state: running !important;
+}
